@@ -1,4 +1,42 @@
+.heading {
+    color: black;
+    background-color: aliceblue;
+    padding: 2pt;
+    text-align: center;
+}
 
+.introduction {
+    color: white;
+    background-color:rgb(3, 34, 74);
+    text-align: center;
+}
+
+body {
+    background: rgb(3, 34, 74);
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-align: center;
+  }
+  
+  ul {
+    background-color: aliceblue;
+    text-transform: uppercase;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    margin: 0;
+    padding: 2pt;
+  }
+
+  .navbar {
+    background-color: aliceblue;
+  }
+  
+  button {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+/*   
 .heading {
     background-color: rgb(4, 96, 176);
     color: white;
@@ -7,9 +45,9 @@
 .introduction {
     background-color: white;
     color: rgb(4, 96, 176);
-}
+} */
 
-
+/* 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
   margin: 0;
@@ -186,18 +224,4 @@ label.selectall .row .percent{
 input[type="radio"],
 input[type="checkbox"]{
   display: none;
-}
-
-/* .panel-title {
-    background-color: white;
-    color: rgb(4, 96, 176);
-}
-
-body { margin-top:20px; }
-.panel-body:not(.two-col) { padding:0px }
-.glyphicon { margin-right:5px; }
-.glyphicon-new-window { margin-left:5px; }
-.panel-body .radio,.panel-body .checkbox {margin-top: 0px;margin-bottom: 0px;}
-.panel-body .list-group {margin-bottom: 0;}
-.margin-bottom-none { margin-bottom: 0; }
-.panel-body .radio label,.panel-body .checkbox label { display:block; } */
+} */
